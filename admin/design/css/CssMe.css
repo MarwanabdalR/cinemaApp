@@ -1,0 +1,52 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+/* start login form */
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+
+.login .form-control{
+    background-color: #e5e5e5;
+}
+
+.login .btn{
+    background-color: #008dde;
+    --bs-btn-padding-x: 8.15rem;
+}
+
+.login h4{
+    color: #888;
+}
+
+/* end login form */
+
+/* start bootstrap  */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    font-size: 1em;
+}
+
+.nav>li>a,
+.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: rgb(35 49 216 / 65%);
+    --bs-nav-link-hover-color: rgb(207 224 15 / 80%);
+}
+
+
+/* end bootstrap  */
